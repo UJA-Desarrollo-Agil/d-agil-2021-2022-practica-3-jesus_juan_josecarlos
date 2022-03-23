@@ -65,9 +65,12 @@ GitHub: https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-3-jesus
 
 <a name="tablero"></a>
 ## Capturas Tablero Trello
-![03](https://user-images.githubusercontent.com/99321546/159535808-cb7425df-9b26-4a31-a590-0806dc3eed03.jpg)
-![04](https://user-images.githubusercontent.com/99321546/159535832-b697d315-bdff-4bd4-8862-c07fc3370c5b.jpg)
-![05](https://user-images.githubusercontent.com/99321546/159535851-25f933b8-403d-4c49-aa72-6da83f6a441e.jpg)
+![CapturaTableroTrello1](https://user-images.githubusercontent.com/99332198/159651859-3545825c-bd2b-4c54-bf90-10550a8bc12c.PNG)
+
+![CapturaTableroTrello2](https://user-images.githubusercontent.com/99332198/159651953-61b806c4-716f-44dc-9270-5c444e3a3235.PNG)
+
+![CapturaTableroTrello3](https://user-images.githubusercontent.com/99332198/159652032-8d88428e-6918-4821-ab9f-2e09acea8744.PNG)
+
 
 
 
