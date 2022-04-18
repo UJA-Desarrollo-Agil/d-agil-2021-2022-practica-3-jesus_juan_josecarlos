@@ -86,6 +86,19 @@ undum.game.situations = {
         
     ),
 	
+	falta_1: new undum.SimpleSituation(
+        "<h1>Entrada a canasta</h1>\
+		<img src='media/games/tutorial/falta.jpg' class='float_right'>\
+		<p>...</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
 	entrada: new undum.SimpleSituation(
         "<h1>Entrada a canasta</h1>\
 		<img src='media/games/tutorial/entrada_a_canasta.jpg' class='float_right'>\
