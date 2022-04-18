@@ -34,7 +34,8 @@ undum.game.situations = {
         <p>El jugador observa el marcador y queda un minuto para el final del partido y pierden de seis puntos 60 – 54,\
 		ellos son los visitantes, nuestro jugador marca jugada y decide <a href='pasar'> pasarla\
         </a> a nuestro alero para intentar conseguir tres puntos\
-		y acortar la distancia o hacer una propia jugada e intentar <a href='entrada'> entrar a canasta\
+		y acortar la distancia,  hacer una propia jugada e intentar <a href='entrada'> entrar a canasta</a> o realizar\
+		un asombroso <a href='final_mate'> mate final</a>\
         </a>.</p>"
     ),
 
@@ -128,6 +129,7 @@ undum.game.situations = {
 		}
         
     ),
+	
     todo: new undum.SimpleSituation(
         "<p>Two things can happen in a situation. The character either\
         <a href='links'>leaves</a> the situation and enters another one, or\
