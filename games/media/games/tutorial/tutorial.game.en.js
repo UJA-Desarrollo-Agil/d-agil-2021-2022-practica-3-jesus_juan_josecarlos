@@ -130,6 +130,22 @@ undum.game.situations = {
         
     ),
 	
+	final_mate: new undum.SimpleSituation(
+        "<h1>Machaca el aro con un mate</h1>\
+		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
+		<p>El pivot recibe el balón y ante la posibilidad de doblar al exterior de lanzar de 3 el escolta que está\
+		abierta en la esquina, decide finalizar la jugada con un mate vistoso para el público consiguiendo meter aún\
+		más en el partido al equipo y sumando dos puntos al marcador 60 – 56, que provoca un <a href='saque_fondo'> saque de fondo.</a>\
+		Ahora toca una buena <a href='defensa'> defensa.</a></p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
     todo: new undum.SimpleSituation(
         "<p>Two things can happen in a situation. The character either\
         <a href='links'>leaves</a> the situation and enters another one, or\
