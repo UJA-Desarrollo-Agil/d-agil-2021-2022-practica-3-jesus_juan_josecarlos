@@ -87,11 +87,11 @@ undum.game.situations = {
     ),
 	
 	entrada: new undum.SimpleSituation(
-        "<h1>Trabajas en una empresa</h1>\
-		<img src='media/games/tutorial/woodcut2.png' class='float_right'>\
-		<p>En la empresa trabajas 2 años aprendiendo mucho pero aguantando todo tipo de jefes y algunos días incluso con resaca mortal.No te gusta ser mandado por ningún jefe , ya que propones siempre ideas diferentes y nadie te hace caso porque te tienes que adaptar a lo que piden.\
-		Pero a pesar de todo lo pasado adquieres una gran experiencia por lo que\
-			decides invertir tus ahorros de esos años en la empresa y <a href='todo'>hacer dos aplicaciones útiles</a></p>",
+        "<h1>Entrada a canasta</h1>\
+		<img src='media/games/tutorial/entrada_a_canasta.jpg' class='float_right'>\
+		<p>Nuestro base una vez marcada jugada sorprende al rival con un veloz driblin sobrepasando la marca\
+		y avanza solo a través de la pista, una vez situada a media cancha, el jugador debe pensar rápido en\
+		la siguiente acción ya que el base rival está recuperando la defensa y puede probocar una <a href='falta_1'>falta </a>  o realizar <a href='buena_defensa_1'> una buena defensa  </a> .</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
