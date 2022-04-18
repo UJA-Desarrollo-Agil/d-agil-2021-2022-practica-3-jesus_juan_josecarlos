@@ -89,7 +89,9 @@ undum.game.situations = {
 	falta_1: new undum.SimpleSituation(
         "<h1>Entrada a canasta</h1>\
 		<img src='media/games/tutorial/falta.jpg' class='float_right'>\
-		<p>...</p>",
+		<p>La mejor opción que ve nuestro jugador es fintar con un tiro, a lo que responde la defensa rival\
+		con un intento de tapón, esto es aprovechado por nuestro jugador para sacarle la falta y conseguir \
+		así <a href='tiros_libres'> dos tiros libres </a> más una falta al jugador.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
