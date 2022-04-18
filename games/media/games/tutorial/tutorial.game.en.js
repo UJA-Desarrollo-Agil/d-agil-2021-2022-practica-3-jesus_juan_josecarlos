@@ -68,6 +68,24 @@ undum.game.situations = {
 		}
         
     ),
+	
+	
+	mate_1: new undum.SimpleSituation(
+        "<h1>Decides hacer un mate</h1>\
+		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
+		<p>Situados en el uno contra uno, alero y pivot rival, el jugador tiene\
+		una desventaja ya que si finaliza con una entrada a canasta puede sufrir y\
+		perder el balón con un tapón del pivot rival, con lo cuál, piensa rápido\
+		y el pivot de nuestro equipo la pide ya que se encuentra solo, el alero no duda y se la pasa.</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
 	entrada: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/woodcut2.png' class='float_right'>\
