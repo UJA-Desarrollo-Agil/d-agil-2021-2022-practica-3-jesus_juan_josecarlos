@@ -146,6 +146,19 @@ undum.game.situations = {
         
     ),
 	
+	saque_fondo: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/saque_fondo.jpg' class='float_right'>\
+		<p>...</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
     todo: new undum.SimpleSituation(
         "<p>Two things can happen in a situation. The character either\
         <a href='links'>leaves</a> the situation and enters another one, or\
