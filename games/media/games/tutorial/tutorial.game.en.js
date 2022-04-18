@@ -59,7 +59,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/woodcut2.png' class='float_right'>\
 		<p>El alero recibe el balón y se desentiende de la jugada, intenta un uno contra uno hacia su oponente intentando humillarlo,\
 		este consigue rebasarlo y salta a la ayuda el pivot del equipo rival, nuestro jugador solo observa el aro como prioridad,\
-		pero ahora se encuentra defendido.</p>",
+		pero ahora se encuentra defendido. Teniendo como unica  posibilidad hacer un <a href='mate_1'>mate </a></p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
