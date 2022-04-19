@@ -145,3 +145,5 @@ Tabla de las historias de usuario con sus respectivas descipciones/obsevaciones.
 ## Sprint Retrospective
 Respecto a está practica podemos destacar los papeles de Trello y Telegram. Para la organización ha sido esencial la herramienta trello donde cada participante sabía la tarea que tenia que realizar en todo momento y para la comunicación el grupo de Telegram ha cumplido un papel muy importante así como su vinculación a GitHub que nos permite saber las cosas que se van subiendo a esa plataforma a través de los commit.
 
+Las reuniones diarias para concretar acciones sobre esta práctica han tenido lugar mayormente en persona ya que vivimos en el mismo piso dos de los integrantes y otro es muy amigo por lo que estaba siempre por el piso. Pero también hemos usado mucho telegram como herramienta para hablar sobre el proyecto ya que nos permitia a cada uno contestar cuando podía a cosas que no eran necesarias resolver en ese mismo instante.
+
