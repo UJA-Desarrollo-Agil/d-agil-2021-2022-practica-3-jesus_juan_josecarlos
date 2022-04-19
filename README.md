@@ -137,8 +137,11 @@ Descripciones de cada participante.
 <a name="sprint_review"></a>
 ## Sprint Review
 
+Tabla de las historias de usuario con sus respectivas descipciones/obsevaciones.
+![erre](https://user-images.githubusercontent.com/99321546/164044782-48e0d198-15ea-4ff7-8625-dd62585cba2f.png)
+
 
 <a name="sprint_retrospective"></a>
 ## Sprint Retrospective
-
+Respecto a está practica podemos destacar los papeles de Trello y Telegram. Para la organización ha sido esencial la herramienta trello donde cada participante sabía la tarea que tenia que realizar en todo momento y para la comunicación el grupo de Telegram ha cumplido un papel muy importante así como su vinculación a GitHub que nos permite saber las cosas que se van subiendo a esa plataforma a través de los commit.
 
