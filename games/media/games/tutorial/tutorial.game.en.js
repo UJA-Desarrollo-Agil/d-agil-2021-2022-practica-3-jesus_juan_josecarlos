@@ -29,21 +29,14 @@ undum.game.slideUpSpeed = 500
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-        "<h1>Starting Out with Undum</h1>\
+        "<h1>Comienzo</h1>\
         <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>Welcome to the Undum tutorial. Undum is a tool for writing\
-        hypertext interactive fiction. It has some unique features\
-        and a visual design that encourages narrative games.</p>\
-        \
-        <p>Hypertext interactive fiction is the digital equivalent of the\
-        Choose Your Own Adventure (CYOA) books that were popular in the\
-        1980s. The story is told in chunks, and you select from a range\
-        of options to move it forward. Unlike the book form, however, the\
-        digital form gives you far more flexibility to tell rich stories\
-        and introduce more interesting game elements.</p>\
-        \
-        <p class='transient'>Click <a href='hub'>this link to\
-        continue...</a></p>"
+        <p>El jugador observa el marcador y queda un minuto para el final del partido y pierden de seis puntos 60 – 54,\
+		ellos son los visitantes, nuestro jugador marca jugada y decide <a href='pasar'> pasarla\
+        </a> a nuestro alero para intentar conseguir tres puntos\
+		y acortar la distancia,  hacer una propia jugada e intentar <a href='entrada'> entrar a canasta</a> o realizar\
+		un asombroso <a href='final_mate'> mate final</a>\
+        </a>.</p>"
     ),
 
     // NB: The 'hub' situation which is the main list of topics, is
@@ -62,6 +55,136 @@ undum.game.situations = {
         optionText: "What Undum Games are Made Of",
         displayOrder: 1
     }),
+	pasar: new undum.SimpleSituation(
+        "<h1>Decides pasarla al alero</h1>\
+		<img src='media/games/tutorial/woodcut2.png' class='float_right'>\
+		<p>El alero recibe el balón y se desentiende de la jugada, intenta un uno contra uno hacia su oponente intentando humillarlo,\
+		este consigue rebasarlo y salta a la ayuda el pivot del equipo rival, nuestro jugador solo observa el aro como prioridad,\
+		pero ahora se encuentra defendido. Teniendo como unica  posibilidad hacer un <a href='mate_1'>mate </a></p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	
+	mate_1: new undum.SimpleSituation(
+        "<h1>Decides hacer un mate</h1>\
+		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
+		<p>Situados en el uno contra uno, alero y pivot rival, el jugador tiene\
+		una desventaja ya que si finaliza con una entrada a canasta puede sufrir y\
+		perder el balón con un tapón del pivot rival, con lo cuál, piensa rápido\
+		y el pivot de nuestro equipo la pide ya que se encuentra solo, el alero no duda y se la pasa.</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	falta_1: new undum.SimpleSituation(
+        "<h1>Entrada a canasta</h1>\
+		<img src='media/games/tutorial/falta.jpg' class='float_right'>\
+		<p>La mejor opción que ve nuestro jugador es fintar con un tiro, a lo que responde la defensa rival\
+		con un intento de tapón, esto es aprovechado por nuestro jugador para sacarle la falta y conseguir \
+		así <a href='tiros_libres'> dos tiros libres </a> más una falta al jugador.</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	buena_defensa_1: new undum.SimpleSituation(
+        "<h1>Realizar una buena defensa</h1>\
+		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
+		<p>...</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	entrada: new undum.SimpleSituation(
+        "<h1>Entrada a canasta</h1>\
+		<img src='media/games/tutorial/entrada_a_canasta.jpg' class='float_right'>\
+		<p>Nuestro base una vez marcada jugada sorprende al rival con un veloz driblin sobrepasando la marca\
+		y avanza solo a través de la pista, una vez situada a media cancha, el jugador debe pensar rápido en\
+		la siguiente acción ya que el base rival está recuperando la defensa y puede probocar una <a href='falta_1'>falta </a>  o realizar <a href='buena_defensa_1'> una buena defensa  </a> .</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	final_mate: new undum.SimpleSituation(
+        "<h1>Machaca el aro con un mate</h1>\
+		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
+		<p>El pivot recibe el balón y ante la posibilidad de doblar al exterior de lanzar de 3 el escolta que está\
+		abierta en la esquina, decide finalizar la jugada con un mate vistoso para el público consiguiendo meter aún\
+		más en el partido al equipo y sumando dos puntos al marcador 60 – 56, que provoca un <a href='saque_fondo'> saque de fondo.</a>\
+		Ahora toca una buena <a href='defensa'> defensa.</a></p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	saque_fondo: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/saque_fondo.jpg' class='float_right'>\
+		<p>...</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	defensa: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
+		<p>...</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	tiros_libres: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
+		<p>...</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
     todo: new undum.SimpleSituation(
         "<p>Two things can happen in a situation. The character either\
         <a href='links'>leaves</a> the situation and enters another one, or\
@@ -447,21 +570,20 @@ undum.game.start = "start";
  * that quality will never show up in the character bar in the UI. */
 undum.game.qualities = {
     skill: new undum.IntegerQuality(
-        "Skill", {priority:"0001", group:'stats'}
+        "Equipo", {priority:"0001", group:'stats'}
     ),
     stamina: new undum.NumericQuality(
-        "Stamina", {priority:"0002", group:'stats'}
+        "Rival", {priority:"0002", group:'stats'}
     ),
     luck: new undum.FudgeAdjectivesQuality( // Fudge as in the FUDGE RPG
-        "<span title='Skill, Stamina and Luck are reverently borrowed from the Fighting Fantasy series of gamebooks. The words representing Luck are from the FUDGE RPG. This tooltip is illustrating that you can use any HTML in the label for a quality (in this case a span containing a title attribute).'>Luck</span>",
-        {priority:"0003", group:'stats'}
+        "<span title='Skill, Stamina and Luck are reverently borrowed from the Fighting Fantasy series of gamebooks. The words representing Luck are from the FUDGE RPG. This tooltip is illustrating that you can use any HTML in the label for a quality (in this case a span containing a title attribute).'>Intensidad</span>",
+        {priority:"0004", group:'stats'}
     ),
-
-    inspiration: new undum.NonZeroIntegerQuality(
-        "Inspiration", {priority:"0001", group:'progress'}
+	puntos: new undum.IntegerQuality(
+        "Puntos Ind", {priority:"0003", group:'stats'}
     ),
-    novice: new undum.OnOffQuality(
-        "Novice", {priority:"0002", group:'progress', onDisplay:"&#10003;"}
+	tiempo: new undum.IntegerQuality(
+        "Tiempo", {priority:"0005", group:'stats'}
     )
 };
 
@@ -480,10 +602,10 @@ undum.game.qualityGroups = {
 /* This function gets run before the game begins. It is normally used
  * to configure the character at the start of play. */
 undum.game.init = function(character, system) {
-    character.qualities.skill = 12;
-    character.qualities.stamina = 12;
+    character.qualities.skill = 49;
+    character.qualities.stamina = 53;
     character.qualities.luck = 0;
-    character.qualities.novice = 1;
-    character.qualities.inspiration = 0;
-    system.setCharacterText("<p>You are starting on an exciting journey.</p>");
+    character.qualities.puntos = 14;
+	character.qualities.tiempo = 20;
+    system.setCharacterText("<p>Aqui podemos ver el marcador , los puntos individuales de nuestro jugador y la intensidad, y el tiempo que queda</p>");
 };

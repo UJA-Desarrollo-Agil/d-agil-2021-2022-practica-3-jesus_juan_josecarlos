@@ -1,140 +1,149 @@
-# Undum
-
-Undum is a game framework for building a sophisticated form of
-hypertext interactive fiction.
-
-If that means nothing to you, then let's go back a few steps. Remember
-those Choose Your Own Adventure, or Fighting Fantasy books? Where you
-got to choose what your character does next? Well if you think of that
-in a web-page you have hypertext interactive fiction, or HIF. Instead
-of turning to a particular page, you click a link, and the next bit of
-content appears.
-
-The problem is that those kinds of games are pretty limited. Every
-time the player does something, the story could go in different
-directions. So the author has to either write masses of branches, or
-else the decisions you make as a player have to be relatively short
-lived. If you played CYOA books you'll know that the wrong move either
-ended the story pretty quickly, or else it didn't really matter what
-you did because you'd end up at the same place.
-
-To beat this limitation, Undum allows you to make the output
-dynamic. It allows you to keep track of what has happened to the
-character (any kinds of data, in fact), and to then change the text
-that gets output accordingly. Effectively it is like writing a CYOA
-page that is different each time you read it. This allows for far
-richer and more rewarding game design.
-
-Undum is a pure client client-side library. It consists of a HTML file
-and three Javascript files. The HTML file uses a nice bit of styling,
-so there's a bunch of CSS and images in the default package too, but
-that can be replaced if you want. To create your own game, you edit
-the HTML file a little (mainly just changing the title and author),
-and edit one of the Javascript files.
-
-Because the game is written in Javascript, you get the full power of a
-dynamic and efficient programming language. This isn't a CYOA
-scripting system with limited functionality. You can take control of
-anything you want. Or you can just keep things simple using a bunch of
-simple functions provided by Undum.
+<a name="arriba"></a>
+# Practica 3 Desarrollo Ágil
 
 
-## Compatibility
-
-Undum is designed for HTML5 and CSS3 browsers. It has been tested on
-Firefox 3.6, Chrome 5, and Safari 5. Older browsers may work okay too,
-but some of the animation won't work, the styles may render poorly,
-and saving and loading of games is unlikely to work. Anyone who wants
-to hack around with it and make it work more widely is welcome. Just
-fork this project on Github.
-
-The local storage system on some browsers does not work when loading a
-page from your hard drive. To test your game when developing it, you
-may want to start up a simple local webserver. I have found that
-Chrome seems to reliably provide local storage for local
-development. It also has excellent Javascript debugging tools.
-
-
-## Getting Started
-
-1. Download Undum. Use the 'download zip' link in the right column of
-   this page.
-
-2. Unzip Undum somewhere on your hard-drive.
-
-3. Open games/tutorial.html in your browser, and play through the tutorial.
-
-4. Copy games/tutorial.html to a file that reflects your game name.
-
-5. Edit your HTML file and add the title, author and description of
-   the game you want to write. At the bottom of the file change the
-   name of `tutorial.game.js` to something else (by convention
-   *your-game-name*`.game.js`.
-
-6. Copy `tutorial.game.js` to the file name you chose in the last
-   step. Open it and begin creating your game.
+<a name="indice"></a>
+## Índice
+  * [Índice](#indice)
+  * [Realizado por](#Realizado_por)
+  * [Descripcion](#descripcion)
+  * [Personajes](#personajes)
+  * [Enlaces a Trello y Telegram](#Enlaces)
+  * [Capturas Tablero Trello](#tablero)
+  * [Vinculaciones](#Vinculaciones)
+  * [Sprint 1](#Sprint_1)
+  * [Trabajo Trello](#trabajo_trello)
+  * [Trabajo Telegram](#trabajo_telegram)
+  * [Sprint Review](#sprint_review)
+  * [Sprint Retrospective](#sprint_retrospective)
 
 
-Reference documentation, including full API details, is at
-[http://idmillington.github.io/undum/](http://idmillington.github.io/undum/),
-and is also included in the repository.
+<a name="Realizado_por"></a>
+## Realizado por
 
-The source code for all the files is also heavily commented, so if you
-get stuck, go in and read it.
+Miembro 1
+José Carlos Pérez Sánchez
+jcps0008@red.ujaen.es
 
+Miembro 2 
+Juan Campos Jímenez 
+jcj00030@red.ujaen.es
 
-## Deploying
-
-To deploy your game, just upload your HTML file and the `media` folder
-to your webserver. You can serve several games with the same look and
-feel from the same directory. You need a different HTML file for each
-game, and each one should load the correct `.game.js` file at the
-end. Add any media you need for your game (images, audio, video), and
-the remaining files will be reused.
-
-For example, if you had 3 games: `episode1`, `episode2`, and
-`christmas-special`. You'd have a directory structure:
-
-    episode1.html
-    episode2.html
-    christmas-special.html
-    media/
-        css/ ...
-        img/ ...
-        js/
-            jquery-1.4.2.min.js
-            undum.js
-        games/
-            episode1/
-                episode1.game.js
-                ... media for episode 1 ...
-            episode2/
-                episode2.game.js
-                ... media for episode 1 ...
-            christmas-special/
-                christmas-special.game.js
-                ... media for christmas special ...
-
-This assumes you use the same directory lay out that I do. You are
-welcome to change things around, of course, as long as you work and
-change the references.
+Miembro 3
+Jesus Pérez Castilla
+jpc00068@red.ujaen.es
 
 
-## Undum
-
-The name `undum` came from a little project that preceded this code
-base. In 2008 I put together a simple browser based game. It was
-narrative, but used the grind-based mechanics of games such as
-Farmville and Mafia Wars. Because of the grinding, I called it
-Carborundum, which I found I couldn't type at speed, so it became
-Undum. The code has changed out of all recognition since them, as the
-grind-based game moved to Flash. But the name stuck for the Javascript
-framework.
 
 
-## License
+<a name="descripcion"></a>
+## Descripcion
+Emocionante torneo de baloncesto entre universidades que se disputa
+todos los año, y que una vez más se disputa la final entre dos grandes universidades
+donde encontramos una gran rivalidad, el partido se encuentra continuamente en 
+una subida y bajada de emociones dondes nuestros personajes tienen una gran
+importancia debido a que, el equipo de una universidad lleva sin poder obtener
+el título un gran periodo de tiempo y sueñan con el título. Observaremos a lo
+largo de la historia si serán capaces de lograr su gran sueño.
 
-The code, documentation, styles, design and images are all distributed
-under the MIT license. This permits you to modify and use them, even
-for commercial use. A copy of the MIT license is found in the LICENSE
-file.
+
+
+<a name="personajes"></a>
+## Personajes
+
+	jugadores de nuestro equipo:
+	Como base: Chapi
+	Como pivot:Xarly
+	Como jugador estrealla y máximo anotador:Suso
+   
+	jugadores rivales:
+	Como base: Doncic
+	Como pivot:Drummond
+	Como alero:Lebron James.
+
+
+<a name="Enlaces"></a>
+## Enlaces a Trello y Telegram 
+Trello: https://trello.com/b/yTT4LYfE/desarrollo-agil
+
+GitHub: https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-3-jesus_juan_josecarlos
+
+<a name="tablero"></a>
+## Capturas Tablero Trello
+![CapturaTableroTrello1](https://user-images.githubusercontent.com/99332198/159651859-3545825c-bd2b-4c54-bf90-10550a8bc12c.PNG)
+
+![CapturaTableroTrello2](https://user-images.githubusercontent.com/99332198/159651953-61b806c4-716f-44dc-9270-5c444e3a3235.PNG)
+
+![CapturaTableroTrello3](https://user-images.githubusercontent.com/99332198/159652032-8d88428e-6918-4821-ab9f-2e09acea8744.PNG)
+
+
+
+
+<a name="Vinculaciones"></a>
+## Vinculaciones 
+
+### Vinculamos Trello con Telegram
+![01](https://user-images.githubusercontent.com/99321546/159535567-5226d7ee-e36c-4d1c-b70a-de44e64b616c.jpg)
+
+### Vinculamos Github con Telegram
+![02](https://user-images.githubusercontent.com/99321546/159535652-4a604c1a-917b-4a09-b07e-3690d9d6fad2.jpg)
+
+<a name="Sprint_1"></a>
+## Sprint 1
+Para realizar el primer sprint, que es una primera versión de nuestro juego, hemos utilizado la metodología Scrum.
+
+<a name="trabajo_trello"></a>
+### Tablero Trello
+   Mostramos como queda el tablero Trello en el Sprint 1 tras los cambios realizados:
+   ![image](https://user-images.githubusercontent.com/99321546/164037542-cb371cf0-f7b6-4247-b0f5-bb6258faf0d9.png)
+   
+   A continuación mostramos las actividades que hemos finalizado en el tablero de Trello
+![image](https://user-images.githubusercontent.com/99321546/164037658-7c72a942-d734-477e-84ca-b033cf4b9ac2.png)
+![image](https://user-images.githubusercontent.com/99321546/164037741-07c493f2-e4eb-4516-9801-44a104f9d13b.png)
+![image](https://user-images.githubusercontent.com/99321546/164037777-8efc0e14-3a5e-4529-a46d-e584108d4ac0.png)
+![image](https://user-images.githubusercontent.com/99321546/164037831-f19b8558-21de-48f2-a999-58f9000b6ebc.png)
+![image](https://user-images.githubusercontent.com/99321546/164037921-92471255-1927-42c2-81be-f96c2ac148a2.png)
+![image](https://user-images.githubusercontent.com/99321546/164037974-4a75f176-b352-40f9-9783-bc34be97d2b5.png)
+![image](https://user-images.githubusercontent.com/99321546/164038038-db165696-1065-4967-a3a6-aa623c787fe1.png)
+![image](https://user-images.githubusercontent.com/99321546/164038131-7a214d9f-5dc6-4de6-a435-0849198db11f.png)
+![image](https://user-images.githubusercontent.com/99321546/164038177-823a5e7a-e97d-4cd4-b294-f18e93f706fb.png)
+
+Etiqueta de "Realizar mínimo 9 situaciones del juego."
+Descripciones de cada participante.
+![image](https://user-images.githubusercontent.com/99321546/164040431-6f92a7c5-3cd7-4edd-89b2-9b29ceaab8e2.png)
+
+
+
+
+<a name="trabajo_telegram"></a>
+### Trabajo realizado en Telegram
+   Mostramos el trabajo realizado a través de la aplicación Telegram, todos los detalles realizados.
+   
+   Captura donde repartimos el color correspondiente a cada miembro del grupo para el tablero de Trello y mensajes del bot tras modificar algunas etiquetas del mismo
+   ![image](https://user-images.githubusercontent.com/99320559/164041345-820ed1f3-69ce-4eee-86eb-61b88abfa65c.png)
+   
+   En el juego se produce algunos cambios y lo informamos al resto de miembros, mensajes del bot donde añadimos las etiquetas correspondientes al tablero 
+   ![image](https://user-images.githubusercontent.com/99320559/164041753-c5501bf0-6d45-4250-843a-3cfb91c7951d.png)
+   
+   Distribuidmos los trabajos a cada miembro, y comenzamos a realizar los primeros commits
+   ![image](https://user-images.githubusercontent.com/99320559/164042082-3a2d0291-2e2f-4d1a-9f07-e69c3e1f9aca.png)
+   
+   Todos los commits realizados en el proyecto
+   ![image](https://user-images.githubusercontent.com/99320559/164042283-df3efbc8-7794-4415-ad3c-c9fdb7fa8f87.png)
+   ![image](https://user-images.githubusercontent.com/99320559/164042366-49e084bc-009d-4242-b9b7-30488dab2a0f.png)
+   ![image](https://user-images.githubusercontent.com/99320559/164042451-a8a1a294-c7b4-4764-a36d-8f6a234a12fb.png)
+   ![image](https://user-images.githubusercontent.com/99320559/164042520-ac5b83c0-f593-4098-8a62-a5274cba1817.png)
+   
+<a name="sprint_review"></a>
+## Sprint Review
+
+Tabla de las historias de usuario con sus respectivas descipciones/obsevaciones.
+![erre](https://user-images.githubusercontent.com/99321546/164044782-48e0d198-15ea-4ff7-8625-dd62585cba2f.png)
+
+
+<a name="sprint_retrospective"></a>
+## Sprint Retrospective
+Respecto a está practica podemos destacar los papeles de Trello y Telegram. Para la organización ha sido esencial la herramienta trello donde cada participante sabía la tarea que tenia que realizar en todo momento y para la comunicación el grupo de Telegram ha cumplido un papel muy importante así como su vinculación a GitHub que nos permite saber las cosas que se van subiendo a esa plataforma a través de los commit.
+
+Las reuniones diarias para concretar acciones sobre esta práctica han tenido lugar mayormente en persona ya que vivimos en el mismo piso dos de los integrantes y otro es muy amigo por lo que estaba siempre por el piso. Pero también hemos usado mucho telegram como herramienta para hablar sobre el proyecto ya que nos permitia a cada uno contestar cuando podía a cosas que no eran necesarias resolver en ese mismo instante.
+
