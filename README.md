@@ -12,8 +12,8 @@
   * [Capturas Tablero Trello](#tablero)
   * [Vinculaciones](#Vinculaciones)
   * [Sprint 1](#Sprint_1)
-   - [Trabajo Trello](#trabajo_trello)
-   - [Trabajo Telegram](#trabajo_telegram)
+  * [Trabajo Trello](#trabajo_trello)
+  * [Trabajo Telegram](#trabajo_telegram)
   * [Sprint Review](#sprint_review)
   * [Sprint Retrospective](#sprint_retrospective)
 
@@ -94,8 +94,26 @@ Para realizar el primer sprint, que es una primera versión de nuestro juego, he
 
 <a name="trabajo_trello"></a>
 ### Tablero Trello
-   Mostramos como queda el tablero Trello en el Sprint 1 tras los cambios realizados.
-   (Capturas de pantalla)
+   Mostramos como queda el tablero Trello en el Sprint 1 tras los cambios realizados:
+   ![image](https://user-images.githubusercontent.com/99321546/164037542-cb371cf0-f7b6-4247-b0f5-bb6258faf0d9.png)
+   
+   A continuación mostramos las actividades que hemos finalizado en el tablero de Trello
+![image](https://user-images.githubusercontent.com/99321546/164037658-7c72a942-d734-477e-84ca-b033cf4b9ac2.png)
+![image](https://user-images.githubusercontent.com/99321546/164037741-07c493f2-e4eb-4516-9801-44a104f9d13b.png)
+![image](https://user-images.githubusercontent.com/99321546/164037777-8efc0e14-3a5e-4529-a46d-e584108d4ac0.png)
+![image](https://user-images.githubusercontent.com/99321546/164037831-f19b8558-21de-48f2-a999-58f9000b6ebc.png)
+![image](https://user-images.githubusercontent.com/99321546/164037921-92471255-1927-42c2-81be-f96c2ac148a2.png)
+![image](https://user-images.githubusercontent.com/99321546/164037974-4a75f176-b352-40f9-9783-bc34be97d2b5.png)
+![image](https://user-images.githubusercontent.com/99321546/164038038-db165696-1065-4967-a3a6-aa623c787fe1.png)
+![image](https://user-images.githubusercontent.com/99321546/164038131-7a214d9f-5dc6-4de6-a435-0849198db11f.png)
+![image](https://user-images.githubusercontent.com/99321546/164038177-823a5e7a-e97d-4cd4-b294-f18e93f706fb.png)
+
+Etiqueta de "Realizar mínimo 9 situaciones del juego."
+Descripciones de cada participante.
+![image](https://user-images.githubusercontent.com/99321546/164040431-6f92a7c5-3cd7-4edd-89b2-9b29ceaab8e2.png)
+
+
+
 
 <a name="trabajo_telegram"></a>
 ### Trabajo realizado en Telegram
