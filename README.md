@@ -119,6 +119,21 @@ Descripciones de cada participante.
 ### Trabajo realizado en Telegram
    Mostramos el trabajo realizado a través de la aplicación Telegram, todos los detalles realizados.
    
+   Captura donde repartimos el color correspondiente a cada miembro del grupo para el tablero de Trello y mensajes del bot tras modificar algunas etiquetas del mismo
+   ![image](https://user-images.githubusercontent.com/99320559/164041345-820ed1f3-69ce-4eee-86eb-61b88abfa65c.png)
+   
+   En el juego se produce algunos cambios y lo informamos al resto de miembros, mensajes del bot donde añadimos las etiquetas correspondientes al tablero 
+   ![image](https://user-images.githubusercontent.com/99320559/164041753-c5501bf0-6d45-4250-843a-3cfb91c7951d.png)
+   
+   Distribuidmos los trabajos a cada miembro, y comenzamos a realizar los primeros commits
+   ![image](https://user-images.githubusercontent.com/99320559/164042082-3a2d0291-2e2f-4d1a-9f07-e69c3e1f9aca.png)
+   
+   Todos los commits realizados en el proyecto
+   ![image](https://user-images.githubusercontent.com/99320559/164042283-df3efbc8-7794-4415-ad3c-c9fdb7fa8f87.png)
+   ![image](https://user-images.githubusercontent.com/99320559/164042366-49e084bc-009d-4242-b9b7-30488dab2a0f.png)
+   ![image](https://user-images.githubusercontent.com/99320559/164042451-a8a1a294-c7b4-4764-a36d-8f6a234a12fb.png)
+   ![image](https://user-images.githubusercontent.com/99320559/164042520-ac5b83c0-f593-4098-8a62-a5274cba1817.png)
+   
 <a name="sprint_review"></a>
 ## Sprint Review
 
