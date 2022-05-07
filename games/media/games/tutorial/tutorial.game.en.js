@@ -175,7 +175,9 @@ undum.game.situations = {
 	tiros_libres: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
-		<p>...</p>",
+		<p>Al disponer nosotros de menos tiempo , necesitabamos realizar un ataque rapido y decidimos realizar un ataque de triple , para ello nuestro pivot le da el balón al base \
+			, acto seguido este realiza una entrada a canasta que acaba doblando a la esquina donde esta nuestro escolta abierto para poder finalizar \
+			la jugada anotando y dejandonos en el marcador 1 por arriba.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
@@ -184,6 +186,48 @@ undum.game.situations = {
 		}
         
     ),
+	jugada2: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
+		<p>Conseguimos que el balón no salga fuera y rápidamente nuestro jugador arma el tiro para conseguir así dos puntos o decide <a href='espera1'> esperarse</a> \
+			a que el base recupere su posición y aprovechar que la defensa está mal colocada </p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	tira1: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
+		<p>El tiro consigue ir dentro y logran así dos puntos más que se acumulan en el marcador lo que provoca que consigan el esperado título \
+		y también logre nuestro jugador el premio al máximo anotador de la liga universitaria</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	espera1: new undum.SimpleSituation(
+        "<h1>Trabajas en una empresa</h1>\
+		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
+		<p>Decide esperar y nuestro base se coloca para sacar un tiro de 3 sorprendiendo a la defensa , el base tira y en suspensión es defendido \
+		por el ala-pivot que se encontraba en sus espaldas y por su gran envergadura consigue facilmente hacerle un tapón que provoca que pierdan \
+		el partido y vuelva a perder el título tan esperado para la universidad</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	
 	
     todo: new undum.SimpleSituation(
         "<p>Two things can happen in a situation. The character either\
@@ -602,10 +646,10 @@ undum.game.qualityGroups = {
 /* This function gets run before the game begins. It is normally used
  * to configure the character at the start of play. */
 undum.game.init = function(character, system) {
-    character.qualities.skill = 49;
-    character.qualities.stamina = 53;
-    character.qualities.luck = 0;
-    character.qualities.puntos = 14;
-	character.qualities.tiempo = 20;
+    character.qualities.skill = 49;		//equipo
+    character.qualities.stamina = 53;		//rival
+    character.qualities.luck = 0;		//intensidad
+    character.qualities.puntos = 14;	//Puntos individuales
+	character.qualities.tiempo = 20;	//tiempo
     system.setCharacterText("<p>Aqui podemos ver el marcador , los puntos individuales de nuestro jugador y la intensidad, y el tiempo que queda</p>");
 };
