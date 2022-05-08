@@ -76,8 +76,21 @@ undum.game.situations = {
 		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
 		<p>Situados en el uno contra uno, alero y pivot rival, el jugador tiene\
 		una desventaja ya que si finaliza con una entrada a canasta puede sufrir y\
-		perder el balón con un tapón del pivot rival, con lo cuál, piensa rápido\
-		y el pivot de nuestro equipo la pide ya que se encuentra solo, el alero no duda y se la pasa.</p>",
+		perder el balón con un tapón del pivot rival, con lo cuál, <a href='pensar_jugada'>piensa rápido. </a>\
+		</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	pensar_jugada: new undum.SimpleSituation(
+        "<h1>El jugador piensa la jugada</h1>\
+		<img src='media/games/tutorial/pensar_jugada.jpg' class='float_right'>\
+		<p>El jugador al no tener opciones tiene que pensar y realiza un amago al defensa rival y le sale bien , con el amago realizado con éxito \
+		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la pasa</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
