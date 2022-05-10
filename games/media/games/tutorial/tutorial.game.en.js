@@ -122,8 +122,7 @@ undum.game.situations = {
 		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propones una presión arriba\
 		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
 		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
-		este pierde el balón y sale por la línea de fondo o nuestro alero hace un esfuerzo e intenta ir a por el \
-		balón y que no salga.</p>",
+		este pierde y conseguimos que el partido finalize con nuestra victoria.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
@@ -187,7 +186,7 @@ undum.game.situations = {
 		<p>Aquí nosotros disponemos de menos tiempo con lo cual necesitamos realizar un ataque rápido y decidimos\
 		realizar un ataque de triple, para ello saca nuestro pivot y le da balón al base, acto seguido este realiza\
 		una entrada a canasta que acaba doblando a la esquina donde esta nuestro escolta abierto para poder finalizar\
-		la jugada anotando de tres.</p>",
+		la jugada anotando de tres y consiguiendo asi la victoria para nuestro equipo.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
