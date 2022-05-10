@@ -204,7 +204,7 @@ undum.game.situations = {
 	
 	defensa_11: new undum.SimpleSituation(
         "<h1>Defendemos a muerte</h1>\
-		<img src='media/games/tutorial/tirodos.jpg' class='float_right'>\
+		<img src='media/games/tutorial/mediocampo.jpg' class='float_right'>\
 		<p>Nuestro entrenador nos indica una jugada de defensa agresiva para poder robar el balón rápido y así ganar el partido. Esta defensa sale mal , ya que \
 		su base es demasiado bueno , su base tira de triple y falla , el rebote le cae a nuestro jugador que mira el marcador , donde queda 1 segundo y decide \
 		tirar desde el centro del campo sobre la bocina . Este tira y ............. TRIPLEEEEEEEEE. Nuestro equipo se hace con la victoria con un sorprendey asombroso triple.</p>",
