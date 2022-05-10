@@ -11,11 +11,18 @@
   * [Enlaces a Trello y Telegram](#Enlaces)
   * [Capturas Tablero Trello](#tablero)
   * [Vinculaciones](#Vinculaciones)
+  * 
   * [Sprint 1](#Sprint_1)
   * [Trabajo Trello](#trabajo_trello)
   * [Trabajo Telegram](#trabajo_telegram)
   * [Sprint Review](#sprint_review)
   * [Sprint Retrospective](#sprint_retrospective)
+
+* [Sprint 2](#Sprint_2)
+  * [Trabajo Trello](#trabajo_trello_2)
+  * [Trabajo Telegram](#trabajo_telegram_2)
+  * [Sprint Review](#sprint_review_2)
+  * [Sprint Retrospective](#sprint_retrospective_2)
 
 
 <a name="Realizado_por"></a>
@@ -134,6 +141,8 @@ Descripciones de cada participante.
    ![image](https://user-images.githubusercontent.com/99320559/164042451-a8a1a294-c7b4-4764-a36d-8f6a234a12fb.png)
    ![image](https://user-images.githubusercontent.com/99320559/164042520-ac5b83c0-f593-4098-8a62-a5274cba1817.png)
    
+   ## Trabajo realizado en Telegram
+   
 <a name="sprint_review"></a>
 ## Sprint Review
 
@@ -147,3 +156,22 @@ Respecto a está practica podemos destacar los papeles de Trello y Telegram. Par
 
 Las reuniones diarias para concretar acciones sobre esta práctica han tenido lugar mayormente en persona ya que vivimos en el mismo piso dos de los integrantes y otro es muy amigo por lo que estaba siempre por el piso. Pero también hemos usado mucho telegram como herramienta para hablar sobre el proyecto ya que nos permitia a cada uno contestar cuando podía a cosas que no eran necesarias resolver en ese mismo instante.
 
+
+
+<a name="Sprint_2"></a>
+## Sprint 2
+Para realizar el segundo sprint, que es una primera versión de nuestro juego, hemos utilizado la metodología Scrum.
+
+<a name="trabajo_trello_2"></a>
+### Tablero Trello - Sprint 2
+
+<a name="trabajo_telegram_2"></a>
+### Trabajo realizado en Telegram - Sprint 2
+   Mostramos el trabajo realizado a través de la aplicación Telegram, todos los detalles realizados.
+   
+ 
+ <a name="sprint_review_2"></a>
+## Sprint Review - Sprint 2
+
+<a name="sprint_retrospective_2"></a>
+## Sprint Retrospective - Sprint 2
