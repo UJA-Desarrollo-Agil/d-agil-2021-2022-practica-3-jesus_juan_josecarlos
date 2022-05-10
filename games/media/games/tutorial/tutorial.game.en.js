@@ -242,7 +242,7 @@ undum.game.situations = {
 	
 	//LIBRE
 	espera1: new undum.SimpleSituation(
-        "<h1>Trabajas en una empresa</h1>\
+        "<h1>Esperar</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
 		<p>Decide esperar y nuestro base se coloca para sacar un tiro de 3 sorprendiendo a la defensa , el base tira y en suspensión es defendido \
 		por el ala-pivot que se encontraba en sus espaldas y por su gran envergadura consigue facilmente hacerle un tapón que provoca que pierdan \
