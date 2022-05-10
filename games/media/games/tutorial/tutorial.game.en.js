@@ -63,9 +63,13 @@ undum.game.situations = {
 		pero ahora se encuentra defendido. Teniendo como posibilidad hacer un <a href='mate_1'>mate </a> o  <a href='jugada2'>tirar de dos </a> </p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
+		
 		}
         
     ),
@@ -80,9 +84,13 @@ undum.game.situations = {
 		</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
+		
 		}
         
     ),
@@ -93,8 +101,11 @@ undum.game.situations = {
 		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la pasa</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -108,9 +119,13 @@ undum.game.situations = {
 		así <a href='tiros_libres'> dos tiros libres </a> más una falta al jugador.</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
+		
 		}
         
     ),
@@ -125,8 +140,11 @@ undum.game.situations = {
 		este pierde y conseguimos que el partido finalize con nuestra victoria.</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -140,8 +158,11 @@ undum.game.situations = {
 		la siguiente acción ya que el base rival está recuperando la defensa y puede probocar una <a href='falta_1'>falta </a>  o realizar <a href='buena_defensa_1'> una buena defensa  </a> .</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -156,8 +177,11 @@ undum.game.situations = {
 		Ahora toca una buena <a href='defensa'> defensa.</a></p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -171,8 +195,11 @@ undum.game.situations = {
 			y si la falla dentrá que realizar una <a href='defensa'> buena defensa.</a></p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -189,8 +216,11 @@ undum.game.situations = {
 		la jugada anotando de tres y consiguiendo asi la victoria para nuestro equipo.</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -207,8 +237,11 @@ undum.game.situations = {
 		este pierde el balón consiguiendo así acabar el partido.</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -224,8 +257,11 @@ undum.game.situations = {
 			la jugada anotando y dejandonos en el marcador 1 por arriba.</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -242,8 +278,11 @@ undum.game.situations = {
 		y también logre nuestro jugador el premio al máximo anotador de la liga universitaria</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
@@ -258,8 +297,11 @@ undum.game.situations = {
 		el partido y vuelva a perder el título tan esperado para la universidad</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
+                system.setQuality("equipo", character.qualities.skill+20);
+				system.setQuality("rival", character.qualities.stamina+50);
+				system.setQuality("intensidad", character.qualities.luck+1);
+				system.setQuality("puntos individuales", character.qualities.puntos+50);
+				system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
