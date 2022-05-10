@@ -63,11 +63,7 @@ undum.game.situations = {
 		pero ahora se encuentra defendido. Teniendo como posibilidad hacer un <a href='mate_1'>mate </a> o  <a href='jugada2'>tirar de dos </a> </p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+				system.setQuality("tiempo", character.qualities.tiempo-2);//Tiempo
             }
 		
 		}
@@ -84,11 +80,10 @@ undum.game.situations = {
 		</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+2);//Equipo 
+				system.setQuality("luck", character.qualities.luck+1);//Intesidad
+				system.setQuality("puntos", character.qualities.puntos+2);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-3);//Tiempo
             }
 		
 		}
@@ -98,14 +93,28 @@ undum.game.situations = {
         "<h1>El jugador piensa la jugada</h1>\
 		<img src='media/games/tutorial/pensar_jugada.png' class='float_right'>\
 		<p>El jugador al no tener opciones tiene que pensar y realiza un amago al defensa rival y le sale bien , con el amago realizado con éxito \
-		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la pasa</p>",
+		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la <a href='pasa_11'>pasa </a></p>",
 		{
-			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+			enter: function(character, system, to) { 
+				system.setQuality("luck", character.qualities.luck+1);//Intesidad
+				system.setQuality("tiempo", character.qualities.tiempo-2);//Tiempo
+				
+            }
+		}
+        
+    ),
+	
+	pasa_11: new undum.SimpleSituation(
+        "<h1>Jugada maestra</h1>\
+		<img src='media/games/tutorial/pasa11.jpg' class='float_right'>\
+		<p>Al pasarla al alero , nuestro jugador realiza un movimiento de ruptura y se queda solo en zona de 3 , nuestro alero se la pasa y nuestro jugador tira de 3 sobre la bocina\
+		,consigue anotar y así dar la victoria al equipo</p>",
+		{
+			enter: function(character, system, to) { 
+				system.setQuality("skill", character.qualities.skill+3);//Equipo
+				system.setQuality("puntos", character.qualities.puntos+3);//puntos in
+				system.setQuality("tiempo", character.qualities.tiempo-3);//Tiempo
+				
             }
 		}
         
@@ -118,12 +127,9 @@ undum.game.situations = {
 		con un intento de tapón, esto es aprovechado por nuestro jugador para sacarle la falta y conseguir \
 		así <a href='tiros_libres'> dos tiros libres </a> más una falta al jugador.</p>",
 		{
-			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+			enter: function(character, system, to) { 
+				system.setQuality("luck", character.qualities.luck+1);//Intesidad
+				system.setQuality("tiempo", character.qualities.tiempo-3);//Tiempo
             }
 		
 		}
@@ -137,14 +143,26 @@ undum.game.situations = {
 		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propones una presión arriba\
 		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
 		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
-		este pierde y conseguimos que el partido finalize con nuestra victoria.</p>",
+		este pierde y conseguimos quitarle el balón y salir a la<a href='contra'> contra</a></p>",
+		{
+			enter: function(character, system, to) { 
+				system.setQuality("luck", character.qualities.luck+1);//Intesidad
+				system.setQuality("tiempo", character.qualities.tiempo-4);//Tiempo
+				
+            }
+		}
+        
+    ),
+	
+	contra: new undum.SimpleSituation(
+        "<h1>Realizamos la contra </h1>\
+		<img src='media/games/tutorial/contra.jpg' class='float_right'>\
+		<p>Nuestro base sale con el balón hacia la canasta rival , el defensa rival lo sigue con mucha intensidad ya que podria ser la última jugada del partido\
+			nuestro	base logra distraer al rival con la conducción y se la pasa a nuestro alero que mete desde la zona de 3 y logramos ganar el partido.	</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+3);//Equipo
+				system.setQuality("tiempo", character.qualities.tiempo-4);//Tiempo
             }
 		}
         
@@ -158,11 +176,9 @@ undum.game.situations = {
 		la siguiente acción ya que el base rival está recuperando la defensa y puede probocar una <a href='falta_1'>falta </a>  o realizar <a href='buena_defensa_1'> una buena defensa  </a> .</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+2);//Equipo
+				system.setQuality("puntos", character.qualities.puntos+2);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-2);//Tiempo
             }
 		}
         
@@ -173,15 +189,30 @@ undum.game.situations = {
 		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
 		<p>El pivot recibe el balón y ante la posibilidad de doblar al exterior de lanzar de 3 el escolta que está\
 		abierta en la esquina, decide finalizar la jugada con un mate vistoso para el público consiguiendo meter aún\
-		más en el partido al equipo y sumando dos puntos al marcador 60 – 56, que provoca un <a href='saque_fondo'> saque de fondo.</a>\
-		Ahora toca una buena <a href='defensa'> defensa.</a></p>",
+		más en el partido al equipo y sumando dos puntos al marcador 60 – 56.\
+		Ahora toca una buena <a href='defensa_11'> defensa.</a></p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+2);//Equipo 
+				system.setQuality("luck", character.qualities.luck+1);//Intesidad
+				system.setQuality("puntos", character.qualities.puntos+2);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-4);//Tiempo
+            }
+		}
+        
+    ),
+	
+	defensa_11: new undum.SimpleSituation(
+        "<h1>Defendemos a muerte</h1>\
+		<img src='media/games/tutorial/tirodos.jpg' class='float_right'>\
+		<p>Nuestro entrenador nos indica una jugada de defensa agresiva para poder robar el balón rápido y así ganar el partido. Esta defensa sale mal , ya que \
+		su base es demasiado bueno , su base tira de triple y falla , el rebote le cae a nuestro jugador que mira el marcador , donde queda 1 segundo y decide \
+		tirar desde el centro del campo sobre la bocina . Este tira y ............. TRIPLEEEEEEEEE. Nuestro equipo se hace con la victoria con un sorprendey asombroso triple.</p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("skill", character.qualities.skill+3);//Equipo 
+				system.setQuality("puntos", character.qualities.puntos+3);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-6);//Tiempo
             }
 		}
         
@@ -195,11 +226,9 @@ undum.game.situations = {
 			y si la falla dentrá que realizar una <a href='defensa'> buena defensa.</a></p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+2);//Equipo 
+				system.setQuality("puntos", character.qualities.puntos+2);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-3);//Tiempo
             }
 		}
         
@@ -216,11 +245,9 @@ undum.game.situations = {
 		la jugada anotando de tres y consiguiendo asi la victoria para nuestro equipo.</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+3);//Equipo
+				system.setQuality("puntos", character.qualities.puntos+3);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-5);//Tiempo
             }
 		}
         
@@ -231,17 +258,13 @@ undum.game.situations = {
 	defensa: new undum.SimpleSituation(
         "<h1>Se necesita una Defensa</h1>\
 		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
-		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propones una presión arriba\
+		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propone una presión arriba\
 		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
 		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
-		este pierde el balón consiguiendo así acabar el partido.</p>",
+		este pierde el balón consiguiendo así acabar el partido. Pero ellos han jugado demasiado bien con el tiempo y no logramos hacernos con la victoria</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+				system.setQuality("tiempo", character.qualities.tiempo-5);//Tiempo
             }
 		}
         
@@ -250,18 +273,15 @@ undum.game.situations = {
 	
 	//LIBRE
 	tiros_libres: new undum.SimpleSituation(
-        "<h1>Trabajas en una empresa</h1>\
+        "<h1>Tiros libres </h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
-		<p>Al disponer nosotros de menos tiempo , necesitabamos realizar un ataque rapido y decidimos realizar un ataque de triple , para ello nuestro pivot le da el balón al base \
-			, acto seguido este realiza una entrada a canasta que acaba doblando a la esquina donde esta nuestro escolta abierto para poder finalizar \
-			la jugada anotando y dejandonos en el marcador 1 por arriba.</p>",
+		<p>Logramos conseguir dos tiros libres y logramos meternos en el partido dos puntos por arriba , cuando nos damos cuenta el tiempo a finalizado y somos campeones , \
+		nuestro jugador termina en el suelo llorando por meter los tiros libres decisivos</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+4);//Equipo
+				system.setQuality("puntos", character.qualities.puntos+4);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-5);//Tiempo
             }
 		}
         
@@ -278,11 +298,9 @@ undum.game.situations = {
 		y también logre nuestro jugador el premio al máximo anotador de la liga universitaria</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+2);//Equipo
+				system.setQuality("puntos", character.qualities.puntos+2);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-2);//Tiempo
             }
 		}
         
@@ -297,11 +315,9 @@ undum.game.situations = {
 		el partido y vuelva a perder el título tan esperado para la universidad</p>",
 		{
 			enter: function(character, system, to) {
-                system.setQuality("skill", character.qualities.skill+20);
-				system.setQuality("stamina", character.qualities.stamina+50);
-				system.setQuality("luck", character.qualities.luck+1);
-				system.setQuality("puntos", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+                system.setQuality("skill", character.qualities.skill+3);//Equipo
+				system.setQuality("puntos", character.qualities.puntos+3);//puntos ind
+				system.setQuality("tiempo", character.qualities.tiempo-5);//Tiempo
             }
 		}
         
@@ -730,6 +746,6 @@ undum.game.init = function(character, system) {
     character.qualities.stamina = 53;		//rival
     character.qualities.luck = 0;		//intensidad
     character.qualities.puntos = 14;	//Puntos individuales
-	character.qualities.tiempo = 20;	//tiempo
+	character.qualities.tiempo = 10;	//tiempo
     system.setCharacterText("<p>Aqui podemos ver el marcador , los puntos individuales de nuestro jugador y la intensidad, y el tiempo que queda</p>");
 };
