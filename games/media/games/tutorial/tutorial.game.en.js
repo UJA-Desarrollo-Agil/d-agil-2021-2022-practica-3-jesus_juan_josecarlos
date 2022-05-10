@@ -88,7 +88,7 @@ undum.game.situations = {
     ),
 	pensar_jugada: new undum.SimpleSituation(
         "<h1>El jugador piensa la jugada</h1>\
-		<img src='media/games/tutorial/pensar_jugada.jpg' class='float_right'>\
+		<img src='media/games/tutorial/pensar_jugada.png' class='float_right'>\
 		<p>El jugador al no tener opciones tiene que pensar y realiza un amago al defensa rival y le sale bien , con el amago realizado con éxito \
 		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la pasa</p>",
 		{
