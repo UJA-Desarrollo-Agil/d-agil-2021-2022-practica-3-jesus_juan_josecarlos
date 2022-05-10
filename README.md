@@ -4,15 +4,15 @@
 
 <a name="indice"></a>
 ## Índice
-  * [Índice](#indice)
-  * [Realizado por](#Realizado_por)
-  * [Descripcion](#descripcion)
-  * [Personajes](#personajes)
-  * [Enlaces a Trello y Telegram](#Enlaces)
-  * [Capturas Tablero Trello](#tablero)
-  * [Vinculaciones](#Vinculaciones)
-  * 
-  * [Sprint 1](#Sprint_1)
+* [Índice](#indice)
+* [Realizado por](#Realizado_por)
+* [Descripcion](#descripcion)
+* [Personajes](#personajes)
+* [Enlaces a Trello y Telegram](#Enlaces)
+* [Capturas Tablero Trello](#tablero)
+* [Vinculaciones](#Vinculaciones)
+  
+* [Sprint 1](#Sprint_1)
   * [Trabajo Trello](#trabajo_trello)
   * [Trabajo Telegram](#trabajo_telegram)
   * [Sprint Review](#sprint_review)
@@ -89,10 +89,10 @@ GitHub: https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-3-jesus
 <a name="Vinculaciones"></a>
 ## Vinculaciones 
 
-### Vinculamos Trello con Telegram
+## Vinculamos Trello con Telegram
 ![01](https://user-images.githubusercontent.com/99321546/159535567-5226d7ee-e36c-4d1c-b70a-de44e64b616c.jpg)
 
-### Vinculamos Github con Telegram
+## Vinculamos Github con Telegram
 ![02](https://user-images.githubusercontent.com/99321546/159535652-4a604c1a-917b-4a09-b07e-3690d9d6fad2.jpg)
 
 <a name="Sprint_1"></a>
@@ -100,7 +100,7 @@ GitHub: https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-3-jesus
 Para realizar el primer sprint, que es una primera versión de nuestro juego, hemos utilizado la metodología Scrum.
 
 <a name="trabajo_trello"></a>
-### Tablero Trello
+## Tablero Trello
    Mostramos como queda el tablero Trello en el Sprint 1 tras los cambios realizados:
    ![image](https://user-images.githubusercontent.com/99321546/164037542-cb371cf0-f7b6-4247-b0f5-bb6258faf0d9.png)
    
@@ -123,7 +123,7 @@ Descripciones de cada participante.
 
 
 <a name="trabajo_telegram"></a>
-### Trabajo realizado en Telegram
+## Trabajo realizado en Telegram
    Mostramos el trabajo realizado a través de la aplicación Telegram, todos los detalles realizados.
    
    Captura donde repartimos el color correspondiente a cada miembro del grupo para el tablero de Trello y mensajes del bot tras modificar algunas etiquetas del mismo
@@ -163,15 +163,58 @@ Las reuniones diarias para concretar acciones sobre esta práctica han tenido lu
 Para realizar el segundo sprint, que es una primera versión de nuestro juego, hemos utilizado la metodología Scrum.
 
 <a name="trabajo_trello_2"></a>
-### Tablero Trello - Sprint 2
+## Tablero Trello - Sprint 2
+Aqui se mostrarán las imagenes del tablero de trello
+![trello 1](https://user-images.githubusercontent.com/99321546/167726854-77c51bab-345a-401b-8c34-dbcccd1ad1fc.jpg)
+![trello 2](https://user-images.githubusercontent.com/99321546/167726882-0f448014-76d6-4551-b0ef-8340d1b6676a.jpg)
+![trello 3](https://user-images.githubusercontent.com/99321546/167726889-c7658aab-e35e-46ef-a09b-001a521182cd.jpg)
+![trello 4](https://user-images.githubusercontent.com/99321546/167726903-a356ab90-04d5-4e04-b2b6-0a157c96a053.jpg)
+![trello 5](https://user-images.githubusercontent.com/99321546/167726914-e08ea54c-e21e-4cf5-afde-278b5960bd19.jpg)
+![trello 6](https://user-images.githubusercontent.com/99321546/167726926-0e6187c5-5bf8-4074-a599-bf47660cf540.jpg)
+![trello 7](https://user-images.githubusercontent.com/99321546/167726933-e971a3f5-9e26-4ade-a7ea-3c85deb9e14f.jpg)
+
 
 <a name="trabajo_telegram_2"></a>
-### Trabajo realizado en Telegram - Sprint 2
+## Trabajo realizado en Telegram - Sprint 2
    Mostramos el trabajo realizado a través de la aplicación Telegram, todos los detalles realizados.
-   
+   Hay gran cantidad de imagenes, puede parecer excesiva pero queriamos reflejar toda la actividad de telegram y que al estar
+   vinculado con github y trello. Se muestra cada accion sobre el tablero de trello y todos los commit.
+  
+![image](https://user-images.githubusercontent.com/99321546/167727118-4e16a02b-ff5b-4c02-a252-95683814c1e1.png)
+![image](https://user-images.githubusercontent.com/99321546/167727150-71b4143d-3229-476c-804c-95b96cb30c30.png)
+![image](https://user-images.githubusercontent.com/99321546/167727205-9235433b-67cb-499b-ac72-5854ada124f4.png)
+![image](https://user-images.githubusercontent.com/99321546/167727233-e4cec3ed-e037-4bb8-a881-742a4e6a486a.png)
+![image](https://user-images.githubusercontent.com/99321546/167727265-d232487f-fb67-4894-afa7-61233d7494cc.png)
+![image](https://user-images.githubusercontent.com/99321546/167727301-353bad50-1a21-4605-a6da-39280e6a341c.png)
+![image](https://user-images.githubusercontent.com/99321546/167727343-b3987e1b-2377-477c-b159-04c4393e3a4a.png)
+![image](https://user-images.githubusercontent.com/99321546/167727372-d624311a-7d90-45be-a50f-7a6025fc2e70.png)
+![image](https://user-images.githubusercontent.com/99321546/167727399-ecd9a1a2-5261-4c7f-8b3d-2b68019ba542.png)
+![image](https://user-images.githubusercontent.com/99321546/167727434-574d28a3-70c1-43c4-b78a-41d438751f22.png)
+![image](https://user-images.githubusercontent.com/99321546/167727464-18a411c3-4c18-448c-9717-516804f18d45.png)
+![image](https://user-images.githubusercontent.com/99321546/167727493-585240d7-56f8-4154-89e0-32271f81cca4.png)
+![image](https://user-images.githubusercontent.com/99321546/167727516-6bec43c2-cb42-4f71-8330-388325b28127.png)
+![image](https://user-images.githubusercontent.com/99321546/167727544-688a519c-be79-450b-a43c-b648ed7a120d.png)
+![image](https://user-images.githubusercontent.com/99321546/167727573-2bebc262-1e10-42cd-90d2-6f61dde0afd0.png)
+![image](https://user-images.githubusercontent.com/99321546/167727597-31a387fd-c82c-42bd-9cd8-b253ef93c11b.png)
+![image](https://user-images.githubusercontent.com/99321546/167727625-f4f9c8b6-0ab8-47c9-bb6f-030d9fdd2b47.png)
+![image](https://user-images.githubusercontent.com/99321546/167727641-e9c3078a-7828-48c8-a942-b0981bf92a81.png)
+![image](https://user-images.githubusercontent.com/99321546/167727667-979d1044-9a83-4025-a54a-10bcd38d36fb.png)
+![image](https://user-images.githubusercontent.com/99321546/167727695-baf732ea-8d02-40b4-85fb-d1ccf6dca218.png)
+
+
+
  
  <a name="sprint_review_2"></a>
 ## Sprint Review - Sprint 2
+Tabla de las historias de usuario con sus respectivas descipciones/obsevaciones del sprint 2.
+![01](https://user-images.githubusercontent.com/99321546/167728031-b4756f6c-3282-4bb6-b0fc-37df38ba519e.jpg)
+
 
 <a name="sprint_retrospective_2"></a>
 ## Sprint Retrospective - Sprint 2
+
+En esta reunión hemos tenido algunos problemas más que en la práctica anterior . Ya que cada uno de nosotros se encontraba más ocupado debido a los exámenes y trabajos finales. A pesar de las circunstancias , creemos que hemos hecho un gran trabajo grupal , ya que todo lo que hacía cada miembro lo comunicaba al equipo a través de Telegram y los bots de Trello y GitHub nos avisaban de cualquier actividad por si se le pasaba decírnoslo.
+
+Hemos encontrado grandes ventajas en las reuniones presenciales , ya que al vivir en el mismo piso 2 de nosotros y el otro ser amigo , no surgían muchos problemas y trabajamos muy fluidamente . Las herramientas con las que hemos trabajado en esta práctica , al igual que en el Sprint anterior, nos han ayudado mucho. Sobre todo los fines de semana que nos veíamos menos y nos permitía trabajar individualmente con un mayor flujo de información.
+
+Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o online a través de discord donde uno compartia y los demas ayudabamos por lo que puede haber alguna desconpensacion enn cuanto a porcentajes o cmmit pero casi siempre trabajabamos todos aunque uno realizara esa accion, dicha accion era consensuada previamente por todos los integrantes del grupo.
