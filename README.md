@@ -207,6 +207,7 @@ Aqui se mostrarán las imagenes del tablero de trello
  <a name="sprint_review_2"></a>
 ## Sprint Review - Sprint 2
 Tabla de las historias de usuario con sus respectivas descipciones/obsevaciones del sprint 2.
+La tabla que se muestra a continuacion es solo de las tareas de este sprint, como muchas aparecen en la anterior tabla hemos decidido no ser repetitivos.
 ![01](https://user-images.githubusercontent.com/99321546/167728031-b4756f6c-3282-4bb6-b0fc-37df38ba519e.jpg)
 
 
