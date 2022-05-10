@@ -301,7 +301,7 @@ undum.game.situations = {
 				system.setQuality("rival", character.qualities.stamina+50);
 				system.setQuality("intensidad", character.qualities.luck+1);
 				system.setQuality("puntos individuales", character.qualities.puntos+50);
-				system.setQuality("tiempo", character.qualities.tiempo+50);
+				//system.setQuality("tiempo", character.qualities.tiempo+50);
             }
 		}
         
