@@ -184,7 +184,10 @@ undum.game.situations = {
 	saque_fondo: new undum.SimpleSituation(
         "<h1>Saque de fondo</h1>\
 		<img src='media/games/tutorial/saque_fondo.jpg' class='float_right'>\
-		<p>...</p>",
+		<p>Aquí nosotros disponemos de menos tiempo con lo cual necesitamos realizar un ataque rápido y decidimos\
+		realizar un ataque de triple, para ello saca nuestro pivot y le da balón al base, acto seguido este realiza\
+		una entrada a canasta que acaba doblando a la esquina donde esta nuestro escolta abierto para poder finalizar\
+		la jugada anotando de tres.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
