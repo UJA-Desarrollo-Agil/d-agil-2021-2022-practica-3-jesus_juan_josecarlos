@@ -115,6 +115,7 @@ undum.game.situations = {
         
     ),
 	
+	//libre
 	buena_defensa_1: new undum.SimpleSituation(
         "<h1>Realizar una buena defensa</h1>\
 		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
@@ -205,10 +206,10 @@ undum.game.situations = {
         
     ),
 	
-	//LIBRE
+	
 	jugada2: new undum.SimpleSituation(
-        "<h1>Trabajas en una empresa</h1>\
-		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
+        "<h1>Jugada Dos</h1>\
+		<img src='media/games/tutorial/tirodos.jpg' class='float_right'>\
 		<p>Conseguimos que el balón no salga fuera y rápidamente nuestro jugador arma el tiro para conseguir así dos puntos o decide <a href='espera1'> esperarse</a> \
 			a que el base recupere su posición y aprovechar que la defensa está mal colocada </p>",
 		{
