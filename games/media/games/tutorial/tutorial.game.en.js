@@ -60,7 +60,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/woodcut2.png' class='float_right'>\
 		<p>El alero recibe el balón y se desentiende de la jugada, intenta un uno contra uno hacia su oponente intentando humillarlo,\
 		este consigue rebasarlo y salta a la ayuda el pivot del equipo rival, nuestro jugador solo observa el aro como prioridad,\
-		pero ahora se encuentra defendido. Teniendo como posibilidad hacer un <a href='mate_1'>mate </a> o  <a href='jugada2'>tirar de dos </a> </p>",
+		pero ahora se encuentra defendido. Teniendo como posibilidad hacer un <a href='mate_1'>mate </a> o  <a href='jugada2'>tirar de dos </a>.</p>",
 		{
 			enter: function(character, system, to) {
 				system.setQuality("tiempo", character.qualities.tiempo-2);//Tiempo
@@ -77,7 +77,7 @@ undum.game.situations = {
 		<p>Situados en el uno contra uno, alero y pivot rival, el jugador tiene\
 		una desventaja ya que si finaliza con una entrada a canasta puede sufrir y\
 		perder el balón con un tapón del pivot rival, con lo cuál, <a href='pensar_jugada'>piensa rápido.</a>\
-		 Quedando el marcado 51-53 </p>",
+		 Quedando el marcado 51-53. </p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+2);//Equipo 
@@ -93,7 +93,8 @@ undum.game.situations = {
         "<h1>El jugador piensa la jugada</h1>\
 		<img src='media/games/tutorial/pensar_jugada.png' class='float_right'>\
 		<p>El jugador al no tener opciones tiene que pensar y realiza un amago al defensa rival y le sale bien , con el amago realizado con éxito \
-		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la <a href='pasa_11'>pasa </a></p>",
+		aparecen huecos y lineas de pase , y el pivot de nuestro equipo la pide ya que se encuentra solo , el alero no duda y se la <a href='pasa_11'>pasa </a>\
+		.</p>",
 		{
 			enter: function(character, system, to) { 
 				system.setQuality("luck", character.qualities.luck+1);//Intesidad
@@ -108,7 +109,7 @@ undum.game.situations = {
         "<h1>Jugada maestra</h1>\
 		<img src='media/games/tutorial/pasa11.jpg' class='float_right'>\
 		<p>Al pasarla al alero , nuestro jugador realiza un movimiento de ruptura y se queda solo en zona de 3 , nuestro alero se la pasa y nuestro jugador tira de 3 sobre la bocina\
-		,consigue anotar y así dar la victoria al equipo quedando el marcador 54-53</p>",
+		,consigue anotar y así dar la victoria al equipo quedando el marcador 54-53.</p>",
 		{
 			enter: function(character, system, to) { 
 				system.setQuality("skill", character.qualities.skill+3);//Equipo
@@ -143,7 +144,7 @@ undum.game.situations = {
 		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propones una presión arriba\
 		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
 		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
-		este pierde y conseguimos quitarle el balón y salir a la<a href='contra'> contra</a></p>",
+		este pierde y conseguimos quitarle el balón y salir a la<a href='contra'> contra</a>.</p>",
 		{
 			enter: function(character, system, to) { 
 				system.setQuality("luck", character.qualities.luck+1);//Intesidad
@@ -158,7 +159,7 @@ undum.game.situations = {
         "<h1>Realizamos la contra </h1>\
 		<img src='media/games/tutorial/contra.jpg' class='float_right'>\
 		<p>Nuestro base sale con el balón hacia la canasta rival , el defensa rival lo sigue con mucha intensidad ya que podria ser la última jugada del partido\
-			nuestro	base logra distraer al rival con la conducción y se la pasa a nuestro alero que mete desde la zona de 3 y logramos ganar el partido. Quedando el marcador 54-53	</p>",
+			nuestro	base logra distraer al rival con la conducción y se la pasa a nuestro alero que mete desde la zona de 3 y logramos ganar el partido. Quedando el marcador 54-53.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+3);//Equipo
@@ -191,7 +192,7 @@ undum.game.situations = {
 		<p>El pivot recibe el balón y ante la posibilidad de doblar al exterior de lanzar de 3 el escolta que está\
 		abierta en la esquina, decide finalizar la jugada con un mate vistoso para el público consiguiendo meter aún\
 		más en el partido al equipo y sumando dos puntos al marcador 51-53.\
-		Ahora toca una buena <a href='defensa_11'> defensa.</a></p>",
+		Ahora toca una buena <a href='defensa_11'> defensa.</a>.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+2);//Equipo 
@@ -208,7 +209,8 @@ undum.game.situations = {
 		<img src='media/games/tutorial/mediocampo.jpg' class='float_right'>\
 		<p>Nuestro entrenador nos indica una jugada de defensa agresiva para poder robar el balón rápido y así ganar el partido. Esta defensa sale mal , ya que \
 		su base es demasiado bueno , su base tira de triple y falla , el rebote le cae a nuestro jugador que mira el marcador , donde queda 1 segundo y decide \
-		tirar desde el centro del campo sobre la bocina . Este tira y ............. TRIPLEEEEEEEEE. Nuestro equipo se hace con la victoria con un sorprendey asombroso triple. Quedando el marcador 54-53</p>",
+		tirar desde el centro del campo sobre la bocina . Este tira y ............. TRIPLEEEEEEEEE. Nuestro equipo se hace con la victoria con un sorprendey asombroso triple.\
+		Quedando el marcador 54-53.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+3);//Equipo 
@@ -262,7 +264,7 @@ undum.game.situations = {
 		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propone una presión arriba\
 		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
 		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
-		este pierde el balón consiguiendo así acabar el partido. Pero ellos han jugado demasiado bien con el tiempo y no logramos hacernos con la victoria</p>",
+		este pierde el balón consiguiendo así acabar el partido. Pero ellos han jugado demasiado bien con el tiempo y no logramos hacernos con la victoria.</p>",
 		{
 			enter: function(character, system, to) {
 				system.setQuality("tiempo", character.qualities.tiempo-5);//Tiempo
@@ -277,7 +279,7 @@ undum.game.situations = {
         "<h1>Tiros libres </h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
 		<p>Logramos conseguir dos tiros libres y logramos meternos en el partido dos puntos por arriba , cuando nos damos cuenta el tiempo a finalizado y somos campeones , \
-		nuestro jugador termina en el suelo llorando por meter los tiros libres decisivos Quedando el mercador 55-53</p>",
+		nuestro jugador termina en el suelo llorando por meter los tiros libres decisivos Quedando el mercador 55-53.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+4);//Equipo
@@ -296,7 +298,7 @@ undum.game.situations = {
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
 		<p>El tiro consigue ir dentro y logran así dos puntos más que se acumulan en el marcador lo que provoca que consigan el esperado título \
-		y también logre nuestro jugador el premio al máximo anotador de la liga universitaria</p>",
+		y también logre nuestro jugador el premio al máximo anotador de la liga universitaria.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+2);//Equipo
@@ -313,7 +315,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
 		<p>Decide esperar y nuestro base se coloca para sacar un tiro de 3 sorprendiendo a la defensa , el base tira y en suspensión es defendido \
 		por el ala-pivot que se encontraba en sus espaldas y por su gran envergadura consigue facilmente hacerle un tapón que provoca que pierdan \
-		el partido y vuelva a perder el título tan esperado para la universidad</p>",
+		el partido y vuelva a perder el título tan esperado para la universidad.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+3);//Equipo
