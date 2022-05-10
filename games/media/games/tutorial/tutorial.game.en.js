@@ -60,7 +60,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/woodcut2.png' class='float_right'>\
 		<p>El alero recibe el balón y se desentiende de la jugada, intenta un uno contra uno hacia su oponente intentando humillarlo,\
 		este consigue rebasarlo y salta a la ayuda el pivot del equipo rival, nuestro jugador solo observa el aro como prioridad,\
-		pero ahora se encuentra defendido. Teniendo como unica  posibilidad hacer un <a href='mate_1'>mate </a></p>",
+		pero ahora se encuentra defendido. Teniendo como posibilidad hacer un <a href='mate_1'>mate </a> o  <a href='jugada2'>tirar de dos </a> </p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
@@ -159,6 +159,7 @@ undum.game.situations = {
         
     ),
 	
+	//LIBRE
 	saque_fondo: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/saque_fondo.jpg' class='float_right'>\
@@ -172,6 +173,8 @@ undum.game.situations = {
         
     ),
 	
+	
+	//LIBRE
 	defensa: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
@@ -185,6 +188,8 @@ undum.game.situations = {
         
     ),
 	
+	
+	//LIBRE
 	tiros_libres: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
@@ -199,6 +204,8 @@ undum.game.situations = {
 		}
         
     ),
+	
+	//LIBRE
 	jugada2: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
@@ -212,6 +219,8 @@ undum.game.situations = {
 		}
         
     ),
+	
+	//LIBRE
 	tira1: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
@@ -225,6 +234,8 @@ undum.game.situations = {
 		}
         
     ),
+	
+	//LIBRE
 	espera1: new undum.SimpleSituation(
         "<h1>Trabajas en una empresa</h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
