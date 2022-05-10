@@ -31,7 +31,7 @@ undum.game.situations = {
     start: new undum.SimpleSituation(
         "<h1>Comienzo</h1>\
         <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>El jugador observa el marcador y queda un minuto para el final del partido y pierden de seis puntos 60 – 54,\
+        <p>El jugador observa el marcador y queda un minuto para el final del partido y pierden de seis puntos 49 – 53,\
 		ellos son los visitantes, nuestro jugador marca jugada y decide <a href='pasar'> pasarla\
         </a> a nuestro alero para intentar conseguir tres puntos\
 		y acortar la distancia,  hacer una propia jugada e intentar <a href='entrada'> entrar a canasta</a> o realizar\
@@ -76,8 +76,8 @@ undum.game.situations = {
 		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
 		<p>Situados en el uno contra uno, alero y pivot rival, el jugador tiene\
 		una desventaja ya que si finaliza con una entrada a canasta puede sufrir y\
-		perder el balón con un tapón del pivot rival, con lo cuál, <a href='pensar_jugada'>piensa rápido. </a>\
-		</p>",
+		perder el balón con un tapón del pivot rival, con lo cuál, <a href='pensar_jugada'>piensa rápido.</a>\
+		 Quedando el marcado 51-53 </p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+2);//Equipo 
@@ -108,7 +108,7 @@ undum.game.situations = {
         "<h1>Jugada maestra</h1>\
 		<img src='media/games/tutorial/pasa11.jpg' class='float_right'>\
 		<p>Al pasarla al alero , nuestro jugador realiza un movimiento de ruptura y se queda solo en zona de 3 , nuestro alero se la pasa y nuestro jugador tira de 3 sobre la bocina\
-		,consigue anotar y así dar la victoria al equipo</p>",
+		,consigue anotar y así dar la victoria al equipo quedando el marcador 54-53</p>",
 		{
 			enter: function(character, system, to) { 
 				system.setQuality("skill", character.qualities.skill+3);//Equipo
@@ -158,7 +158,7 @@ undum.game.situations = {
         "<h1>Realizamos la contra </h1>\
 		<img src='media/games/tutorial/contra.jpg' class='float_right'>\
 		<p>Nuestro base sale con el balón hacia la canasta rival , el defensa rival lo sigue con mucha intensidad ya que podria ser la última jugada del partido\
-			nuestro	base logra distraer al rival con la conducción y se la pasa a nuestro alero que mete desde la zona de 3 y logramos ganar el partido.	</p>",
+			nuestro	base logra distraer al rival con la conducción y se la pasa a nuestro alero que mete desde la zona de 3 y logramos ganar el partido. Quedando el marcador 54-53	</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+3);//Equipo
@@ -173,7 +173,8 @@ undum.game.situations = {
 		<img src='media/games/tutorial/entrada_a_canasta.jpg' class='float_right'>\
 		<p>Nuestro base una vez marcada jugada sorprende al rival con un veloz driblin sobrepasando la marca\
 		y avanza solo a través de la pista, una vez situada a media cancha, el jugador debe pensar rápido en\
-		la siguiente acción ya que el base rival está recuperando la defensa y puede probocar una <a href='falta_1'>falta </a>  o realizar <a href='buena_defensa_1'> una buena defensa  </a> .</p>",
+		la siguiente acción ya que el base rival está recuperando la defensa y puede probocar una <a href='falta_1'>falta </a> \
+		o realizar <a href='buena_defensa_1'> una buena defensa  </a> Quedando el marcador 51-53.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+2);//Equipo
@@ -189,7 +190,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/mate.jpg' class='float_right'>\
 		<p>El pivot recibe el balón y ante la posibilidad de doblar al exterior de lanzar de 3 el escolta que está\
 		abierta en la esquina, decide finalizar la jugada con un mate vistoso para el público consiguiendo meter aún\
-		más en el partido al equipo y sumando dos puntos al marcador 60 – 56.\
+		más en el partido al equipo y sumando dos puntos al marcador 51-53.\
 		Ahora toca una buena <a href='defensa_11'> defensa.</a></p>",
 		{
 			enter: function(character, system, to) {
@@ -207,7 +208,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/mediocampo.jpg' class='float_right'>\
 		<p>Nuestro entrenador nos indica una jugada de defensa agresiva para poder robar el balón rápido y así ganar el partido. Esta defensa sale mal , ya que \
 		su base es demasiado bueno , su base tira de triple y falla , el rebote le cae a nuestro jugador que mira el marcador , donde queda 1 segundo y decide \
-		tirar desde el centro del campo sobre la bocina . Este tira y ............. TRIPLEEEEEEEEE. Nuestro equipo se hace con la victoria con un sorprendey asombroso triple.</p>",
+		tirar desde el centro del campo sobre la bocina . Este tira y ............. TRIPLEEEEEEEEE. Nuestro equipo se hace con la victoria con un sorprendey asombroso triple. Quedando el marcador 54-53</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+3);//Equipo 
@@ -223,7 +224,7 @@ undum.game.situations = {
 		<img src='media/games/tutorial/tirodos.jpg' class='float_right'>\
 		<p>Conseguimos que el balón no salga fuera y rápidamente nuestro jugador arma el tiro para conseguir así dos puntos o decide <a href='espera1'> esperarse</a> \
 			a que el base recupere su posición y aprovechar que la defensa está mal colocada. Puede suceder dos cosas, e primer lugar si mete el tiro debrá <a href='saque_fondo'> sacar de fondo.</a>\
-			y si la falla dentrá que realizar una <a href='defensa'> buena defensa.</a></p>",
+			y si la falla dentrá que realizar una <a href='defensa'> buena defensa.</a>Quedando el marcador 51-53</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+2);//Equipo 
@@ -242,7 +243,7 @@ undum.game.situations = {
 		<p>Aquí nosotros disponemos de menos tiempo con lo cual necesitamos realizar un ataque rápido y decidimos\
 		realizar un ataque de triple, para ello saca nuestro pivot y le da balón al base, acto seguido este realiza\
 		una entrada a canasta que acaba doblando a la esquina donde esta nuestro escolta abierto para poder finalizar\
-		la jugada anotando de tres y consiguiendo asi la victoria para nuestro equipo.</p>",
+		la jugada anotando de tres y consiguiendo asi la victoria para nuestro equipo. Quedando el marcador 54-53 </p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+3);//Equipo
@@ -276,7 +277,7 @@ undum.game.situations = {
         "<h1>Tiros libres </h1>\
 		<img src='media/games/tutorial/tiro_libre.jpg' class='float_right'>\
 		<p>Logramos conseguir dos tiros libres y logramos meternos en el partido dos puntos por arriba , cuando nos damos cuenta el tiempo a finalizado y somos campeones , \
-		nuestro jugador termina en el suelo llorando por meter los tiros libres decisivos</p>",
+		nuestro jugador termina en el suelo llorando por meter los tiros libres decisivos Quedando el mercador 55-53</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("skill", character.qualities.skill+4);//Equipo
