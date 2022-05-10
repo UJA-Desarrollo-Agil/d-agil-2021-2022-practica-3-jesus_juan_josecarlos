@@ -160,9 +160,25 @@ undum.game.situations = {
         
     ),
 	
+	jugada2: new undum.SimpleSituation(
+        "<h1>Jugada Dos</h1>\
+		<img src='media/games/tutorial/tirodos.jpg' class='float_right'>\
+		<p>Conseguimos que el balón no salga fuera y rápidamente nuestro jugador arma el tiro para conseguir así dos puntos o decide <a href='espera1'> esperarse</a> \
+			a que el base recupere su posición y aprovechar que la defensa está mal colocada. Puede suceder dos cosas, e primer lugar si mete el tiro debrá <a href='saque_fondo'> sacar de fondo.</a>\
+			y si la falla dentrá que realizar una <a href='defensa'> buena defensa.</a></p>",
+		{
+			enter: function(character, system, to) {
+                system.setQuality("ahorros", character.qualities.ahorros+10000);
+				system.setQuality("experiencia", character.qualities.experiencia+50);
+            }
+		}
+        
+    ),
+	
+	
 	//LIBRE
 	saque_fondo: new undum.SimpleSituation(
-        "<h1>Trabajas en una empresa</h1>\
+        "<h1>Saque de fondo</h1>\
 		<img src='media/games/tutorial/saque_fondo.jpg' class='float_right'>\
 		<p>...</p>",
 		{
@@ -207,19 +223,7 @@ undum.game.situations = {
     ),
 	
 	
-	jugada2: new undum.SimpleSituation(
-        "<h1>Jugada Dos</h1>\
-		<img src='media/games/tutorial/tirodos.jpg' class='float_right'>\
-		<p>Conseguimos que el balón no salga fuera y rápidamente nuestro jugador arma el tiro para conseguir así dos puntos o decide <a href='espera1'> esperarse</a> \
-			a que el base recupere su posición y aprovechar que la defensa está mal colocada </p>",
-		{
-			enter: function(character, system, to) {
-                system.setQuality("ahorros", character.qualities.ahorros+10000);
-				system.setQuality("experiencia", character.qualities.experiencia+50);
-            }
-		}
-        
-    ),
+	
 	
 	//LIBRE
 	tira1: new undum.SimpleSituation(
