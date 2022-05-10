@@ -119,7 +119,11 @@ undum.game.situations = {
 	buena_defensa_1: new undum.SimpleSituation(
         "<h1>Realizar una buena defensa</h1>\
 		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
-		<p>...</p>",
+		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propones una presión arriba\
+		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
+		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
+		este pierde el balón y sale por la línea de fondo o nuestro alero hace un esfuerzo e intenta ir a por el \
+		balón y que no salga.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
