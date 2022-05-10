@@ -200,9 +200,12 @@ undum.game.situations = {
 	
 	//LIBRE
 	defensa: new undum.SimpleSituation(
-        "<h1>Trabajas en una empresa</h1>\
+        "<h1>Se necesita una Defensa</h1>\
 		<img src='media/games/tutorial/defensa.jpg' class='float_right'>\
-		<p>...</p>",
+		<p>Después de anotar necesitamos una buena defensa, con lo cual el entrenador propones una presión arriba\
+		e intentar robar la bola como sea, saca el equipo rival y la recibe el pivot ya que nuestra prioridad era\
+		que no se la pasarán el base. Conseguido eso el alero le ataca el bote al pivot y de una mala coordinación\
+		este pierde el balón consiguiendo así acabar el partido.</p>",
 		{
 			enter: function(character, system, to) {
                 system.setQuality("ahorros", character.qualities.ahorros+10000);
