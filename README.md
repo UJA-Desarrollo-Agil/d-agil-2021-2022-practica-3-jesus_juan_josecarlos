@@ -258,7 +258,7 @@ Las lineas rojas de las gráficas son las burn-up
 
 
 <a name="tabla_05"></a>
-## Tabla co los datos para la gráfica de los sprint
+## Tabla con los datos  para las gráficas de los Sprints
 ![05](https://user-images.githubusercontent.com/99321546/168991299-20180e45-5449-4a73-9cad-6d1327b4c2ed.jpg)
 ![5 2](https://user-images.githubusercontent.com/99321546/168991569-dcdf4c58-e3cb-4d4b-998b-53c1966f54c9.jpg)
 
