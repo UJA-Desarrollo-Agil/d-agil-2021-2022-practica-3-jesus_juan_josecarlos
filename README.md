@@ -24,6 +24,17 @@
   * [Sprint Review](#sprint_review_2)
   * [Sprint Retrospective](#sprint_retrospective_2)
 
+* [Métricas](#mm)
+  * [Tabla de los datos del proyecto en su totalidad](#tabla_01)
+  * [Gráfica Burndown y Burn-up de los puntos de historia](#tabla_02)
+  * [Gráfica Burndown y Burn-up del valor asociadoa las historias de usuario](#tabla_03)
+  * [Tabla de velocidades](#tabla_04)
+  * [Tabla co los datos para la gráfica de los sprint](#tabla_05)
+  * [Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 1](#tabla_06)
+  * [Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 2](#tabla_07)
+  * [Tablero trello](#tabla_08)
+  * [Conclusiones](#tabla_09)
+
 
 <a name="Realizado_por"></a>
 ## Realizado por
@@ -220,7 +231,8 @@ Hemos encontrado grandes ventajas en las reuniones presenciales , ya que al vivi
 
 Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o online a través de discord donde uno compartia y los demas ayudabamos por lo que puede haber alguna desconpensacion enn cuanto a porcentajes o cmmit pero casi siempre trabajabamos todos aunque uno realizara esa accion, dicha accion era consensuada previamente por todos los integrantes del grupo.
 
-#Practica 6
+<a name="mm"></a>
+#Métricas
 
 <a name="tabla_01"></a>
 ## Tabla de los datos del proyecto en su totalidad
@@ -264,6 +276,15 @@ Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o onli
 ## Tablero trello
 
 ![tablero 01](https://user-images.githubusercontent.com/99321546/168990387-34169aa0-6b3b-4f6e-9259-ae0834bcb4a0.jpg)
+![10](https://user-images.githubusercontent.com/99321546/168996973-5ca6bd2b-6369-4ad9-8f9a-7103e9477125.jpg)
+![11](https://user-images.githubusercontent.com/99321546/168997004-358f5b90-cfe8-4fec-be5e-b5ec130d39be.jpg)
+
+Hemos creado un nuevo tablero en Trello para esta práctica , ya que nos sirve de gran ayuda a la hora de repartirnos el trabajo y de organizarnos . En cada tarea hemos añadido a los componentes del grupo que la han hecho como miembros y también con sus etiquetas :
+	-Color morado: Jose Carlos
+	-Color verde : Juan
+	-Color amarillo: Jesús
+
+El enlace para este tablero es : https://trello.com/b/N3Jsl01W/metricas-desarrollo
 
 
 <a name="tabla_09"></a>
