@@ -219,3 +219,41 @@ En esta reunión hemos tenido algunos problemas más que en la práctica anterio
 Hemos encontrado grandes ventajas en las reuniones presenciales , ya que al vivir en el mismo piso 2 de nosotros y el otro ser amigo , no surgían muchos problemas y trabajamos muy fluidamente . Las herramientas con las que hemos trabajado en esta práctica , al igual que en el Sprint anterior, nos han ayudado mucho. Sobre todo los fines de semana que nos veíamos menos y nos permitía trabajar individualmente con un mayor flujo de información.
 
 Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o online a través de discord donde uno compartia y los demas ayudabamos por lo que puede haber alguna desconpensacion enn cuanto a porcentajes o cmmit pero casi siempre trabajabamos todos aunque uno realizara esa accion, dicha accion era consensuada previamente por todos los integrantes del grupo.
+
+<a name="tabla_01"></a>
+## Tabla de los datos del proyecto en su totalidad
+![01](https://user-images.githubusercontent.com/99321546/168990481-5a12d0d2-06cc-43cc-aea2-2e2c5bb59d7a.jpg)
+
+
+<a name="tabla_02"></a>
+## Gráfica Burndown y Burn-up de los puntos de historia
+![02](https://user-images.githubusercontent.com/99321546/168990563-e8fa2164-eacc-4b56-8fcf-571ca798def9.jpg)
+
+
+<a name="tabla_03"></a>
+## Gráfica Burndown y Burn-up del valor asociadoa las historias de usuario
+![03](https://user-images.githubusercontent.com/99321546/168990868-a2fb7a38-0fe3-4636-a16a-eed402cd09de.jpg)
+
+
+<a name="tabla_04"></a>
+## Tabla de velocidades
+
+<a name="tabla_05"></a>
+## Tabla co los datos para la gráfica de los sprint
+
+<a name="tabla_06"></a>
+## Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 1
+
+<a name="tabla_06"></a>
+## Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 2
+
+<a name="tabla_07"></a>
+## Tablero trello
+
+![tablero 01](https://user-images.githubusercontent.com/99321546/168990387-34169aa0-6b3b-4f6e-9259-ae0834bcb4a0.jpg)
+
+
+<a name="tabla_08"></a>
+## Conclusiones
+
+
