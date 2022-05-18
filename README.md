@@ -234,6 +234,9 @@ Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o onli
 <a name="mm"></a>
 #Métricas
 
+Las líneas azules de las gráficas son las burndown
+Las lineas rojas de las gráficas son las burn-up
+
 <a name="tabla_01"></a>
 ## Tabla de los datos del proyecto en su totalidad
 ![01](https://user-images.githubusercontent.com/99321546/168990481-5a12d0d2-06cc-43cc-aea2-2e2c5bb59d7a.jpg)
