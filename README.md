@@ -294,5 +294,7 @@ El enlace para este tablero es : https://trello.com/b/N3Jsl01W/metricas-desarrol
 ## Conclusiones
 Al finalizar esta práctica hemos podido observar a través de las gráficas hechas como avanza el proyecto con los Sprints , aunque en las gráficas de los Sprints por días no teníamos información concreta y las hemos hecho un poco a ojo. Hemos observado que trabajando de esta manera el trabajo de todo el proyecto se divide en partes más iguales , aunque en el Sprint 1 nos salen menos cosas hechas sabemos que es por la inexperiencia en este tipo de trabajo en grupo , seguro que si llegamos a hacer más Sprints los siguientes tendrían casi los mismos puntos de historia y de valor.
 
+Hemos realizado las tablas gracias a las capturas de pantalla y la información de los Sprints que realizamos anteriormente que venía en el Readme
+
 Finalmente vemos de gran utilidad todas las herramientas vistas en las prácticas hechas , ya que estamos acostumbrados solo a usar WhatsApp y Discord cuando hay miles de programas que hacen más fácil el trabajo en grupo.
 
