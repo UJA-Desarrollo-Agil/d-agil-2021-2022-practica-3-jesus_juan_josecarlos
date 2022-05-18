@@ -220,6 +220,8 @@ Hemos encontrado grandes ventajas en las reuniones presenciales , ya que al vivi
 
 Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o online a través de discord donde uno compartia y los demas ayudabamos por lo que puede haber alguna desconpensacion enn cuanto a porcentajes o cmmit pero casi siempre trabajabamos todos aunque uno realizara esa accion, dicha accion era consensuada previamente por todos los integrantes del grupo.
 
+#Practica 6
+
 <a name="tabla_01"></a>
 ## Tabla de los datos del proyecto en su totalidad
 ![01](https://user-images.githubusercontent.com/99321546/168990481-5a12d0d2-06cc-43cc-aea2-2e2c5bb59d7a.jpg)
