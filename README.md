@@ -239,23 +239,34 @@ Por otro lado casi siempre trabajabamos en equipo, ya sea presencialmente o onli
 
 <a name="tabla_04"></a>
 ## Tabla de velocidades
+![04](https://user-images.githubusercontent.com/99321546/168991274-143177e7-a634-4eb1-bf45-30ec8e5b8f24.jpg)
+
 
 <a name="tabla_05"></a>
 ## Tabla co los datos para la gráfica de los sprint
+![05](https://user-images.githubusercontent.com/99321546/168991299-20180e45-5449-4a73-9cad-6d1327b4c2ed.jpg)
+![5 2](https://user-images.githubusercontent.com/99321546/168991569-dcdf4c58-e3cb-4d4b-998b-53c1966f54c9.jpg)
+
+
 
 <a name="tabla_06"></a>
 ## Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 1
+![06](https://user-images.githubusercontent.com/99321546/168991646-a40cb112-983c-468b-9e19-bd1e943e0d1c.jpg)
 
-<a name="tabla_06"></a>
-## Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 2
 
 <a name="tabla_07"></a>
+## Gráfica Burndown y Burn-up de los punntos de historia o tareas del sprint 2
+![07](https://user-images.githubusercontent.com/99321546/168991749-b56c0b68-4b38-4b8f-8561-a910be46a4f9.jpg)
+
+
+
+<a name="tabla_08"></a>
 ## Tablero trello
 
 ![tablero 01](https://user-images.githubusercontent.com/99321546/168990387-34169aa0-6b3b-4f6e-9259-ae0834bcb4a0.jpg)
 
 
-<a name="tabla_08"></a>
+<a name="tabla_09"></a>
 ## Conclusiones
 
 
